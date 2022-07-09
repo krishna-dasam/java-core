@@ -1,12 +1,11 @@
 package org.ad.leetcode;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class _1_TwoSum {
 
-    static int[] twoSum(int[] nums, int target){
+    public int[] twoSum(int[] nums, int target){
         int [] result = new int[2];
         Map<Integer, Integer> indexMap = new HashMap<>();
         for(int i=0; i<nums.length; i++){
@@ -19,12 +18,5 @@ public class _1_TwoSum {
             }
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-
-        int[] numbers = {3,2,4};
-        int [] result = twoSum(numbers, 6);
-        System.out.println(Arrays.toString(result));
     }
 }
