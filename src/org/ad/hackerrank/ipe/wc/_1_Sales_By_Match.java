@@ -2,7 +2,7 @@ package org.ad.hackerrank.ipe.wc;
 
 import java.util.HashSet;
 
-public class Sales_By_Match {
+public class _1_Sales_By_Match {
 
     public int numberOfPairs(int[] array) {
         HashSet<Integer> hashSet = new HashSet<>();

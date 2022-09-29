@@ -1,6 +1,6 @@
 package org.ad.hackerrank.ipe.wc;
 
-public class Jumping_On_Clouds {
+public class _3_Jumping_On_Clouds {
 
     public int minNumJumps(int[] clouds) {
         int jumps = 0;

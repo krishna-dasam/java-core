@@ -1,6 +1,6 @@
 package org.ad.hackerrank.ipe.wc;
 
-public class Counting_Valleys {
+public class _2_Counting_Valleys {
 
     public int count(int n, String str) {
         int valley = 0;
